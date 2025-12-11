@@ -1,5 +1,7 @@
 # no-clown-fiesta README
 
+An effort to increase usability with Go code has been made and is located on the [go-specific](https://github.com/zkxjzmswkwl/no-clown-fiesta-vsc/tree/go-specific) branch.
+
 ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
