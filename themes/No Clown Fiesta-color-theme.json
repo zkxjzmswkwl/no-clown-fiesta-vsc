@@ -135,12 +135,20 @@
 		},
 		{
 		  "scope": [
-			"entity.name.function",
-			"support.function",
-			"meta.function-call"
+			"entity.name.function"
 		  ],
 		  "settings": {
 			"foreground": "#88afa2"
+		  }
+		},
+		{
+		  "scope": [
+			"support.function",
+			"meta.function-call",
+			"meta.function-call.generic"
+		  ],
+		  "settings": {
+			"foreground": "#9BC4B8"
 		  }
 		},
 		{
@@ -208,7 +216,7 @@
 		{
 		  "scope": "entity.other.attribute-name",
 		  "settings": {
-			"foreground": "#E1E1E1"
+			"foreground": "#D0D0D0"
 		  }
 		},
 		{
@@ -220,7 +228,7 @@
 			"variable.declaration"
 		  ],
 		  "settings": {
-			"foreground": "#E1E1E1"
+			"foreground": "#D0D0D0"
 		  }
 		},
 		{
@@ -231,7 +239,7 @@
 			"entity.other.inherited-class"
 		  ],
 		  "settings": {
-			"foreground": "#E1E1E1"
+			"foreground": "#BAD7FF"
 		  }
 		},
 		{
@@ -240,7 +248,7 @@
 			"punctuation.delimiter"
 		  ],
 		  "settings": {
-			"foreground": "#E1E1E1"
+			"foreground": "#AFAFAF"
 		  }
 		},
 		{
