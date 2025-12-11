@@ -127,6 +127,17 @@
 		},
 		{
 		  "scope": [
+			"constant.other",
+			"entity.name.constant",
+			"support.constant",
+			"support.variable"
+		  ],
+		  "settings": {
+			"foreground": "#BAD7FF"
+		  }
+		},
+		{
+		  "scope": [
 			"constant.macro"
 		  ],
 		  "settings": {
@@ -177,7 +188,7 @@
 		{
 		  "scope": "keyword.operator",
 		  "settings": {
-			"foreground": "#7E97AB"
+			"foreground": "#AFAFAF"
 		  }
 		},
 		{
@@ -216,16 +227,24 @@
 		{
 		  "scope": "entity.other.attribute-name",
 		  "settings": {
-			"foreground": "#D0D0D0"
+			"foreground": "#BAD7FF"
 		  }
 		},
 		{
 		  "scope": [
-			"variable",
+			"variable.other.member",
+			"variable.other.property"
+		  ],
+		  "settings": {
+			"foreground": "#BAD7FF"
+		  }
+		},
+		{
+		  "scope": [
 			"variable.parameter",
 			"variable.other.readwrite",
-			"variable.other",
-			"variable.declaration"
+			"variable.declaration",
+			"variable"
 		  ],
 		  "settings": {
 			"foreground": "#D0D0D0"
@@ -236,7 +255,10 @@
 			"entity.name.type",
 			"support.class",
 			"support.type",
-			"entity.other.inherited-class"
+			"entity.other.inherited-class",
+			"entity.name.namespace",
+			"entity.name.package",
+			"entity.name.scope-resolution"
 		  ],
 		  "settings": {
 			"foreground": "#BAD7FF"
@@ -248,7 +270,7 @@
 			"punctuation.delimiter"
 		  ],
 		  "settings": {
-			"foreground": "#AFAFAF"
+			"foreground": "#727272"
 		  }
 		},
 		{
